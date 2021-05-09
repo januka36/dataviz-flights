@@ -7,7 +7,7 @@ This project includes basic data visualization methods can be used with python l
 <h5>Screenshots of output tables have included in the below table with corresponding python code.</h5>
 <span></span>
 
-<h4>1) Visualizing bar plot of 'Source' column (port of departure) with number of flights from each source in the flights datframe (lets's say df) </h4>
+<h4>1) Visualizing bar plot of 'Source' column (port of departure) with number of flights from each source in the flights datframe (lets's say df).</h4>
 
 ```python 
 sb.countplot(data = flights, x= 'Source')
@@ -18,14 +18,15 @@ plt.xlabel('Source',fontsize=12)
  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" >
 </p> 
 
-<h4>displaying plot sample</h4>
+<h4>2)Displaying same plot (1)  with minor changes of its appearance. Colors of the bars are changed and the x lables have a rotation of 30 degrees.</h4>
 
 ```python 
-s = "Python syntax highlighting"
-print s
+base_color = sb.color_palette()[0]
+sb.countplot(data = flights, x = 'Source', color = base_color)
+plt.xticks(rotation = 30)
 ```
 <p align="left">
- <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" >
+ <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar2.png" width="350" title="hover text" >
 </p> 
 
 <h4>displaying plot sample</h4>
