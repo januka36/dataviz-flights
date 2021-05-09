@@ -1,4 +1,4 @@
-# Flights - Data Vizualization
+# Flights - Data Visualization
 
 
 <h2>
@@ -18,7 +18,7 @@ plt.xlabel('Source',fontsize=12)
  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" >
 </p> 
 
-<h4>2)Displaying same plot (1)  with minor changes of its appearance. Colors of the bars are changed and the x lables have a rotation of 30 degrees.</h4>
+<h4>2) Displaying same plot (1)  with minor changes of its appearance. Colors of the bars are changed and the x lables have a rotation of 30 degrees.</h4>
 
 ```python 
 base_color = sb.color_palette()[0]
@@ -29,7 +29,7 @@ plt.xticks(rotation = 30)
  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar2.png" width="350" title="hover text" >
 </p> 
 
-<h4>2)Displaying same plot (1)  with appearance changed to orange and the indeces have been ordered to decending order.</h4>
+<h4>3) Displaying same plot (1)  with appearance changed to orange and the indeces have been ordered to decending order.</h4>
 
 ```python 
 base_color = sb.color_palette()[1]
@@ -40,14 +40,15 @@ sb.countplot(data = flights, x = 'Source', color = base_color, order = gen_order
  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar3.png" width="350" title="hover text" >
 </p> 
 
-<h4>displaying plot sample</h4>
+<h4>4) Visualizing the bar plot of the column 'Airlines' indicating the variety of airline. The x labels have been rotated 90 degrees.</h4>
 
 ```python 
-s = "Python syntax highlighting"
-print s
+base_color = sb.color_palette()[2]
+sb.countplot(data = flights, x = 'Airline', color = base_color)
+plt.xticks(rotation = 90);
 ```
 <p align="left">
- <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" >
+ <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar4.png" width="350" title="hover text" >
 </p> 
 
 <h4>displaying plot sample</h4>
