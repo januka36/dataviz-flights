@@ -58,7 +58,7 @@ base_color = sb.color_palette()[2]
 sb.countplot(data = flights, y = 'Airline', color = base_color)
 ```
 <p align="left">
- <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar6.png" width="400" height="300" title="hover text" >
+ <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar6.png" width="500" title="hover text" >
 </p> 
 
 <h4>6) The method isna() allows finding null values in a dataframe. Here it diplays the barplot of all columns and number of null values lying inside.</h4>
