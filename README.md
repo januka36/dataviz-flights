@@ -5,7 +5,7 @@
 This project includes basic data visualization methods can be used with python libraries numpy, pandas, matplotlib and seaborn.</h2>
 <h3>The data sheet used in this project is a flight detail dataframe about Indian flights and destnations.</h3>
 <h5>Screenshots of output tables have included in the below table with corresponding python code.</h5>
-<h1> </h1>
+<h1>  </h1>
 
 <h4>1) Visualizing bar plot of 'Source' column (port of departure) with number of flights from each source in the flights datframe (lets's say df).</h4>
 
