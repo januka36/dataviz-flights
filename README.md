@@ -15,3 +15,14 @@ print s
 ```
 |  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" > |  
 | <p></p> |  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" > |
+
+<h4>displaying plot sample</h4>
+
+```python 
+s = "Python syntax highlighting"
+print s
+```
+<p align="left">
+ <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" >
+</p> 
+
