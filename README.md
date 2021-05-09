@@ -15,5 +15,8 @@ This project is the complete UI design of the ios app "Money"</br>which can be i
 
  |  |  | 
 | :---: | :---: | 
-| ```python</br>s = "Python syntax highlighting"</br>print s</br>```|  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" > |  
+| ```python 
+s = "Python syntax highlighting"
+print s```
+|  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" > |  
 | <p></p> |  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" > |
