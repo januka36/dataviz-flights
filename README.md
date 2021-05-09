@@ -48,7 +48,7 @@ sb.countplot(data = flights, x = 'Airline', color = base_color)
 plt.xticks(rotation = 90);
 ```
 <p align="left">
- <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar4.png" width="350" title="hover text" >
+ <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar5.png" width="350" title="hover text" >
 </p> 
 
 <h4>displaying plot sample</h4>
