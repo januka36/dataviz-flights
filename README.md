@@ -29,14 +29,15 @@ plt.xticks(rotation = 30)
  <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar2.png" width="350" title="hover text" >
 </p> 
 
-<h4>displaying plot sample</h4>
+<h4>2)Displaying same plot (1)  with appearance changed to orange and the indeces have been ordered to decending order.</h4>
 
 ```python 
-s = "Python syntax highlighting"
-print s
+base_color = sb.color_palette()[1]
+gen_order = flights['Source'].value_counts().index
+sb.countplot(data = flights, x = 'Source', color = base_color, order = gen_order)
 ```
 <p align="left">
- <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar1.png" width="350" title="hover text" >
+ <img src="https://github.com/januka36/dataviz-flights/blob/main/Screenshots/bar3.png" width="350" title="hover text" >
 </p> 
 
 <h4>displaying plot sample</h4>
