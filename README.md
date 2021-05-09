@@ -15,4 +15,5 @@ This project is the complete UI design of the ios app "Money"</br>which can be i
 
  |  | | 
 | :---: | :---: | 
-| <img src="https://github.com/amayananayakkara/moneyappUI/blob/main/JPG/Launch%20Screen.jpg" width="180" title="hover text" > |  <img src="https://github.com/amayananayakkara/moneyappUI/blob/main/JPG/Welcome.jpg" width="180" title="hover text" > |  <img src="https://github.com/amayananayakkara/moneyappUI/blob/main/JPG/Sign%20up%20-%20Typing.jpg" width="180" title="hover text" > |  <img src="https://github.com/amayananayakkara/moneyappUI/blob/main/JPG/Sign%20up%20-%20Wrong%20Email.jpg" width="180" title="hover text" > |
+| <img src="https://github.com/amayananayakkara/moneyappUI/blob/main/JPG/Launch%20Screen.jpg" width="180" title="hover text" > |  <img src="https://github.com/amayananayakkara/moneyappUI/blob/main/JPG/Welcome.jpg" width="180" title="hover text" > |  
+| <img src="https://github.com/amayananayakkara/moneyappUI/blob/main/JPG/Sign%20up%20-%20Typing.jpg" width="180" title="hover text" > |  <img src="https://github.com/amayananayakkara/moneyappUI/blob/main/JPG/Sign%20up%20-%20Wrong%20Email.jpg" width="180" title="hover text" > |
